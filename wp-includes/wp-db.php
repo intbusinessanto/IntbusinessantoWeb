@@ -2064,6 +2064,7 @@ class wpdb {
 				$query,
 				$this->timer_stop(),
 				$this->get_caller(),
+				// $this->timer_start(),
 				$this->time_start,
 				array()
 			);
